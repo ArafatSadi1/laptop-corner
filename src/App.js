@@ -1,16 +1,30 @@
 import { useEffect, useState } from 'react';
 import './App.css';
+import Product from './components/Product/Product';
+
 
 function App() {
-  const [laptops, setlaptops] = useState([]);
+  const [laptops, setLaptops] = useState([]);
   useEffect( () => {
     fetch('laptop.json')
     .then(res => res.json())
-    .then(data => console.log(data));
-  }, [])
+    .then(data => setLaptops(data));
+  }, []);
+  const handleAddToCart = (selectProduct) =>{
+    console.log(selectProduct)
+  }
   return (
-    <div className="App">
-      <h2>happy for assignment 8</h2>
+    <div>
+      <h2 className='brand-name'>Laptop Corner</h2>
+      <div className="product-container">
+      {
+        laptops.map(laptop => <Product 
+          key={laptop.id}
+          product={laptop}
+          handleAddToCart={handleAddToCart}
+          ></Product>)
+      }
+      </div>
     </div>
   );
 }
