@@ -61,9 +61,9 @@
 }
 @media only screen and (max-width: 600px){
     .product-container{
-      width: 355px;
+      width: 345px;
       display: grid;
       grid-template-columns: 1fr;
-      margin: 40px;    
+      margin: 20px;    
     }
 }

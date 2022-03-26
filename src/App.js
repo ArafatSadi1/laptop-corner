@@ -3,7 +3,6 @@ import './App.css';
 import Cart from './components/Cart/Cart';
 import Product from './components/Product/Product';
 import Modal from 'react-modal';
-import { BsCartPlusFill } from 'react-icons/bs';
 import {ImCross} from 'react-icons/im'
 import Header from './components/Header/Header';
 
@@ -44,17 +43,17 @@ function App() {
       alert("Ooops... You can't select product more then Four")
     }
     else{
-      // alert('Product Selected')
+      alert('Product Selected')
       setCart(newCart)
     }
   }
 
   const chooseRandomly = () => {
     const random = cart[Math.floor(Math.random() * cart.length)];
+    setCart([random])
   };
   const remove = () => {
-    const removeItem = [];
-    setCart(removeItem)
+    setCart([])
   }
   return (
     <div className='container'>
@@ -76,7 +75,7 @@ function App() {
         style={customStyles}
         contentLabel="Example Modal"
       >
-        <button onClick={closeModal}><ImCross></ImCross></button>
+        <button onClick={closeModal}><ImCross size={20}></ImCross></button>
         <div>
           <h2>Selected Product</h2>
           {
