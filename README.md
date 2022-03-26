@@ -1,5 +1,5 @@
 # Project Name: Laptop Corner
- [This is Live Link]()
+## This is Live Link: [https://laptop-corner-majestic-pika-2eebf0.netlify.app/].
 
 # Getting Started with Create React App
 
