@@ -1,0 +1,29 @@
+.header-container{
+    background-color: #a9a9a9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.header-container h2{
+    color: black;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 10px 0;
+    margin-left: 1em;
+}
+.cart-btn{
+    position: relative;
+}
+.cart-btn button{
+    margin: 10px 0;
+    margin-right: 2em;
+}
+.cart-btn span{
+    background-color: rgba(184, 91, 91, 0.295);
+    color: black;
+    padding: 3px;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 2.4em;
+}

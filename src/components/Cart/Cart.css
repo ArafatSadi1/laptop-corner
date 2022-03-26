@@ -1,0 +1,13 @@
+.cart-container{
+    width: 300px;
+    display: flex;
+    margin: 10px;
+}
+.cart-container img{
+    width: 80px;
+    border-radius: 50%;
+}
+.cart-container h4{
+    margin-left: 5px;
+    font-size: 1.5em;
+}
