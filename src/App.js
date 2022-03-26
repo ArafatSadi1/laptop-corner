@@ -5,6 +5,7 @@ import Product from './components/Product/Product';
 import Modal from 'react-modal';
 import {ImCross} from 'react-icons/im'
 import Header from './components/Header/Header';
+import Question from './components/Question/Question';
 
 const customStyles = {
   content: {
@@ -68,6 +69,7 @@ function App() {
           handleAddToCart={handleAddToCart}
           ></Product>)
       }
+      <Question></Question>
       </div>
       <Modal
         isOpen={modalIsOpen}

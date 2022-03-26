@@ -20,10 +20,10 @@
     margin-right: 2em;
 }
 .cart-btn span{
-    background-color: rgba(184, 91, 91, 0.295);
+    background-color: rgba(245, 3, 3, 0.678);
     color: black;
     padding: 3px;
-    border-radius: 50px;
+    border-radius: 50%;
     position: absolute;
     bottom: 2.4em;
 }
