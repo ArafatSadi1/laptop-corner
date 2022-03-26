@@ -48,9 +48,10 @@ function App() {
       setCart(newCart)
     }
   }
-  const chooseRandomly = () =>{
+
+  const chooseRandomly = () => {
     const random = cart[Math.floor(Math.random() * cart.length)];
-  }
+  };
   const remove = () => {
     const removeItem = [];
     setCart(removeItem)
@@ -77,14 +78,16 @@ function App() {
       >
         <button onClick={closeModal}><ImCross></ImCross></button>
         <div>
+          <h2>Selected Product</h2>
           {
             cart.map(product => <Cart 
+              key={product.id}
               product={product}
             ></Cart>)
           }
         </div>
-        <button onClick={chooseRandomly}>Choose One For Me</button>
-        <button onClick={remove}>Remove</button>
+        <button className='btn' onClick={chooseRandomly}>Choose One For Me</button>
+        <button className='btn' onClick={remove}>Choose Again</button>
       </Modal>
     </div>
   );

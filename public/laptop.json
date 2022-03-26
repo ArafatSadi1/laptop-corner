@@ -2,55 +2,55 @@
     {
       "id": "623e081de9221a582ee3509c",
       "price": 200,
-      "picture": "https://images.pexels.com/photos/812264/pexels-photo-812264.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-      "name": "HP laptop"
+      "picture": "https://www.ryanscomputers.com/storage/products/medium/dell-inspiron-15-3510-intel-cdc-n4020-156-inch-11640426165.webp",
+      "name": "Dell Inspiron 15"
     },
     {
       "id": "623e081d2e9f1c428ba5f4cf",
-      "price": 200,
-      "picture": "https://images.pexels.com/photos/812264/pexels-photo-812264.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-      "name": "HP laptop"
+      "price": 250,
+      "picture": "https://www.ryanscomputers.com/storage/products/medium/acer-extensa-15-ex215-52-384m-10th-gen-intel-core-11600768608.webp",
+      "name": "Acer Extensa 15 EX"
     },
     {
       "id": "623e081d026013b64d7f7a23",
-      "price": 200,
-      "picture": "https://images.pexels.com/photos/812264/pexels-photo-812264.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-      "name": "HP laptop"
+      "price": 300,
+      "picture": "https://www.ryanscomputers.com/storage/products/small/lenovo-ideapad-slim-3i-15itl-intel-core-i3-1005g1-11638599306.webp",
+      "name": "Lenovo IdeaPad Slim"
     },
     {
       "id": "623e081d516ef6e4dd059fcb",
-      "price": 200,
-      "picture": "https://images.pexels.com/photos/812264/pexels-photo-812264.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-      "name": "HP laptop"
+      "price": 320,
+      "picture": "https://www.ryanscomputers.com/storage/products/small/nexstgo-su03-8th-gen-intel-core-i5-8250u-matt-21581766907.webp",
+      "name": "Nexstgo SU03"
     },
     {
       "id": "623e081d8ca4639f9747864e",
-      "price": 200,
-      "picture": "https://images.pexels.com/photos/812264/pexels-photo-812264.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-      "name": "HP laptop"
+      "price": 350,
+      "picture": "https://www.ryanscomputers.com/storage/products/small/acer-aspire-3-a315-58g-54lw-intel-core-i5-1135g7-31633519755.webp",
+      "name": "Acer Aspire 3"
     },
     {
       "id": "623e081d6bb505778e8f0770",
-      "price": 200,
-      "picture": "https://images.pexels.com/photos/812264/pexels-photo-812264.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-      "name": "HP laptop"
+      "price": 270,
+      "picture": "https://www.ryanscomputers.com/storage/products/small/lenovo-ideapad-slim-3i-15itl6-11th-gen-intel-core-11636810342.webp",
+      "name": "Lenovo IdeaPad"
     },
     {
       "id": "623e081de9221a582ee3589c",
-      "price": 200,
-      "picture": "https://images.pexels.com/photos/812264/pexels-photo-812264.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-      "name": "HP laptop"
+      "price": 299,
+      "picture": "https://www.ryanscomputers.com/storage/products/small/acer-aspire-5-a514-54g-50ur-11th-gen-intel-core-11609048881.webp",
+      "name": "Acer Aspire 5"
     },
     {
       "id": "623e081d2e9f1c428ba5f44f",
-      "price": 200,
-      "picture": "https://images.pexels.com/photos/812264/pexels-photo-812264.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-      "name": "HP laptop"
+      "price": 390,
+      "picture": "https://www.ryanscomputers.com/storage/products/small/dell-inspiron-13-5310-intel-core-i5-11320h-133-11643104485.webp",
+      "name": "Dell Inspiron 13"
     },
     {
       "id": "623e081d026013b64d7f7223",
-      "price": 200,
-      "picture": "https://images.pexels.com/photos/812264/pexels-photo-812264.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
-      "name": "HP laptop"
+      "price": 400,
+      "picture": "https://www.ryanscomputers.com/storage/products/small/acer-extensa-15-ex215-52-384m-intel-core-i3-1005g-11635223839.webp",
+      "name": "Acer Extensa 15"
     }
   ]
